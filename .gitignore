@@ -1,0 +1,19 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/.next/
+**/out/
+**/coverage/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs and local caches
+*.log
+npm-debug.log*
+.DS_Store
+*.tsbuildinfo
